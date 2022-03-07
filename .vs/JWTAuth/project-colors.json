@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2ac7415-3e91-4506-872a-2c4c67fb58dc": {
+      "ProjectGuid": "a2ac7415-3e91-4506-872a-2c4c67fb58dc",
+      "DisplayName": "JWTAuth",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "365b4283-e9fe-4e18-b627-c1f79161ab1c": {
+      "ProjectGuid": "365b4283-e9fe-4e18-b627-c1f79161ab1c",
+      "DisplayName": "API.Movies",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
