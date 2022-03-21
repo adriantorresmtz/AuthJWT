@@ -57,6 +57,7 @@ namespace API.Movies
             services.AddAuthorization();
             services.AddEndpointsApiExplorer();
             services.AddSingleton<IMovieService, MovieService>();
+            services.AddCors();
 
             return services;
         }
@@ -71,6 +72,13 @@ namespace API.Movies
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test Movie .Net 6 API");
                 c.InjectStylesheet("/swagger/custom.css");
                 c.RoutePrefix = String.Empty;
+            });
+            app.UseCors(options =>
+            {
+                options.AllowAnyHeader();
+                options.AllowAnyMethod();
+                options.AllowAnyOrigin();
+
             });
 
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devs\\Net\\JWTAuth\\API.Movies\\API.Movies.csproj": {}
+    "C:\\Devs\\Net\\AuthJWT\\API.Movies\\API.Movies.csproj": {}
   },
   "projects": {
-    "C:\\Devs\\Net\\JWTAuth\\API.Movies\\API.Movies.csproj": {
+    "C:\\Devs\\Net\\AuthJWT\\API.Movies\\API.Movies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devs\\Net\\JWTAuth\\API.Movies\\API.Movies.csproj",
+        "projectUniqueName": "C:\\Devs\\Net\\AuthJWT\\API.Movies\\API.Movies.csproj",
         "projectName": "API.Movies",
-        "projectPath": "C:\\Devs\\Net\\JWTAuth\\API.Movies\\API.Movies.csproj",
+        "projectPath": "C:\\Devs\\Net\\AuthJWT\\API.Movies\\API.Movies.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "C:\\Devs\\Net\\JWTAuth\\API.Movies\\obj\\",
+        "outputPath": "C:\\Devs\\Net\\AuthJWT\\API.Movies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.2, )"

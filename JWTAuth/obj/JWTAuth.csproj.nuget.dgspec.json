@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devs\\Net\\JWTAuth\\JWTAuth\\JWTAuth.csproj": {}
+    "C:\\Devs\\Net\\AuthJWT\\JWTAuth\\JWTAuth.csproj": {}
   },
   "projects": {
-    "C:\\Devs\\Net\\JWTAuth\\JWTAuth\\JWTAuth.csproj": {
+    "C:\\Devs\\Net\\AuthJWT\\JWTAuth\\JWTAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devs\\Net\\JWTAuth\\JWTAuth\\JWTAuth.csproj",
+        "projectUniqueName": "C:\\Devs\\Net\\AuthJWT\\JWTAuth\\JWTAuth.csproj",
         "projectName": "JWTAuth",
-        "projectPath": "C:\\Devs\\Net\\JWTAuth\\JWTAuth\\JWTAuth.csproj",
+        "projectPath": "C:\\Devs\\Net\\AuthJWT\\JWTAuth\\JWTAuth.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "C:\\Devs\\Net\\JWTAuth\\JWTAuth\\obj\\",
+        "outputPath": "C:\\Devs\\Net\\AuthJWT\\JWTAuth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
