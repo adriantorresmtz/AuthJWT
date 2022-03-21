@@ -11,7 +11,7 @@ Create a JWT ->
  
    Example -> 
    
-   url:  https://localhost:7032/login
+   url:  https://jwtauthatm.azurewebsites.net/login
    payload:
    {
     "Username":"admin",
