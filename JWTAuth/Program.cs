@@ -31,11 +31,11 @@ var app = builder.Build();
 
         var claims = new[]
         {
-            new Claim("username", loggedUser.Username),
-            new Claim("emailAddress", loggedUser.EmailAddress),
-            new Claim("givenName", loggedUser.GivenName),
-            new Claim("surname", loggedUser.Surname),
-            new Claim("roles", loggedUser.Rol)
+            new Claim(ClaimTypes.NameIdentifier, loggedUser.Username),
+            new Claim(ClaimTypes.Email, loggedUser.EmailAddress),
+            new Claim(ClaimTypes.GivenName, loggedUser.GivenName),
+            new Claim(ClaimTypes.Surname, loggedUser.Surname),
+            new Claim(ClaimTypes.Role, loggedUser.Rol)
         };
 
         var token = new JwtSecurityToken
